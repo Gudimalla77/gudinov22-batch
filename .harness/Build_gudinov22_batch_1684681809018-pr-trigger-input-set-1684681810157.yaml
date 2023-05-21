@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gudinov22_batch_1684681809018-pr-trigger-input-set
+  identifier: Build_gudinov22_batch_1684681809018prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gudinov22_batch_1684681809018
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
