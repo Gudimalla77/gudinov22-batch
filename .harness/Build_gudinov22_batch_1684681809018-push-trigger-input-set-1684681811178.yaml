@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gudinov22_batch_1684681809018-push-trigger-input-set
+  identifier: Build_gudinov22_batch_1684681809018pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gudinov22_batch_1684681809018
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
